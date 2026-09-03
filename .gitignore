@@ -1,0 +1,4 @@
+separar_estudos/.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
