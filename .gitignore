@@ -1,4 +1,15 @@
-separar_estudos/.venv/
 __pycache__/
 *.py[cod]
 .pytest_cache/
+
+# Arquivos locais de desenvolvimento
+.venv/
+.idea/
+.vscode/
+
+# Dados e saidas DICOM (podem conter dados de pacientes)
+*.dcm
+*.dicom
+*.ima
+relatorio_separacao.json
+.separar_estudos_*/
